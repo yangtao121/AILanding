@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="px4_control" type="px4_control_node" name="px4_control" output="screen">
+  </node>
+  <node pkg="ai_landing" type="processor2.py" name="ai_landing" output="screen">
+  </node>
+</launch>
